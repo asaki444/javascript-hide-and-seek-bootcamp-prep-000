@@ -11,7 +11,6 @@ return main;
 
 }
 
-function increaseRankBy(n){
 
   function increaseRankBy(n){
 
@@ -21,4 +20,3 @@ function increaseRankBy(n){
       list[i].innerHTML = parseInt(list[i+n].innerHTML);
     }
   }
-}
